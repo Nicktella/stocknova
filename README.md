@@ -1,19 +1,29 @@
-StockNova Nuclear Edition 🚀
+StockNova Nuclear Edition (***SIMULATOR***)🚀
 AI-Powered Financial Trading Platform with Real-Time Market Data
 Show Image
 Show Image
 Show Image
 Show Image
 Overview
-StockNova Nuclear Edition is a cutting-edge financial trading dashboard featuring real-time market data, AI-powered analytics, and a stunning nuclear-themed interface. Built for traders who demand both performance and aesthetics.
-Features
+StockNova Nuclear Edition is a cutting-edge financial trading dashboard featuring real-time market data, AI-powered analytics, and a stunning nuclear-themed interface.
+Built for traders who demand both performance and aesthetics.
+
+Features:
+
 ✨ Real-Time Market Data - Live stock prices updated every 2 seconds via WebSocket
+
 🤖 AI Trading Assistant - Interactive chat with market analysis and trade recommendations
+
 📊 Advanced Charting - Interactive price/volume charts with nuclear gradient effects
+
 📰 News Sentiment Analysis - Market news with bullish/bearish indicators
+
 🎨 Nuclear Theme UI - Neon green accents, animations, and glassmorphism effects
+
 📱 Responsive Design - Seamless experience across desktop and mobile devices
-Quick Start
+
+Quick Start:
+
 Prerequisites
 
 Node.js 16+
