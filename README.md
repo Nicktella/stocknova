@@ -1,11 +1,7 @@
                                                               🚀 StockNova Nuclear Edition
 <div align="center">
   <img src="screenshots/dashboard.png" alt="StockNova Nuclear Edition Dashboard" width="100%">
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
+
   <h3>AI-Powered Financial Trading Platform with Real-Time Market Data</h3>
   <p align="center">
     <a href="#features">Features</a> •
