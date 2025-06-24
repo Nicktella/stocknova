@@ -196,18 +196,21 @@ httpGET /api/indices
 Get Market News
 httpGET /api/news
 
-WebSocket Events
-Subscribe to Updates
+
+Subscribe to Updates:
 javascriptsocket.on('stockUpdate', (data) => {
   console.log('Stock prices updated:', data);
 });
 
+WebSocket Events:
 socket.on('newsUpdate', (news) => {
   console.log('Breaking news:', news);
 });
+
 🎨 Customization
 
-Theme Colors
+Theme Colors:
+
 Edit client/src/App.css:
 css:root {
   --nuclear-green: #00ff88;
@@ -215,32 +218,32 @@ css:root {
   --background-dark: #0a0a0f;
   --panel-background: rgba(26, 26, 46, 0.6);
 }
-Animation Speed
+
+Animation Speed:
+
 css/* Reduce animation speed */
 .nuclear-stocknova::before {
   animation: nuclearPulse 60s ease-in-out infinite; /* Slower */
 }
-Disable Animations
+
+Disable Animations:
+
 css/* Add class to reduce motion */
 .performance-mode * {
   animation: none !important;
   transition: none !important;
 }
-🐛 Troubleshooting
+
+🐛 Troubleshooting:
+
 Common Issues
 1. Flickering Display
 javascript// In App.jsx, increase update interval
 setInterval(() => {
   fetchStocks();
 }, 30000); // 30 seconds instead of 2
-2. Connection Issues
 
-Ensure server is running on port 3001
-Check CORS settings in server/index.js
-Verify WebSocket connection in browser console
-
-3. High CPU Usage
-
+Suggestions:
 Disable animations in App.css
 Reduce update frequency
 Enable performance mode
