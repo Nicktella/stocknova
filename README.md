@@ -1,4 +1,4 @@
-                                                       🚀 StockNova Nuclear Edition
+                                                🚀 StockNova Nuclear Edition
 <div align="center">
   <img src="screenshots/dashboard.png" alt="StockNova Nuclear Edition Dashboard" width="100%">
 
