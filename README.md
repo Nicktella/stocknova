@@ -20,6 +20,9 @@ Show Image
 
 🌟 Overview
 StockNova Nuclear Edition is a cutting-edge financial trading platform that combines real-time market data with AI-powered analytics. Built with a futuristic "nuclear" theme, it provides traders with an immersive experience featuring live stock prices, AI trading recommendations, and comprehensive market analysis.
+
+⚠️ SIMULATOR ONLY — This is a demo trading platform with simulated data. No real money or trades involved.
+
 🎯 Key Highlights
 
 Real-time WebSocket updates every 2 seconds
@@ -113,51 +116,62 @@ Node.js 16+
 npm or yarn
 Git
 
-Clone Repository
+Clone Repository:
+
 bashgit clone https://github.com/Nicktella/stocknova.git
+
 cd stocknova
+
 Install Dependencies
+
 Option 1: Install All at Once
+
 bash# From root directory
+
 npm run install:all
+
 Option 2: Install Separately
+
 bash# Install server dependencies
+
 cd server
+
 npm install
 
 # Install client dependencies
+
 cd ../client
+
 npm install
+
 Environment Setup
+
 Create .env file in server directory:
+
 envPORT=3001
+
 NODE_ENV=development
+
 🚀 Usage
-Development Mode
-Start Both Client and Server
-bash# From root directory (requires concurrently)
-npm run dev
-Or Start Separately
+Development Mode:
 
-Start Backend Server
+Start Both Client and Server:
 
-bashcd server
-npm start
+client:
+1.) npm run dev
+
+server:
+2.) node index.js
 # Server runs on http://localhost:3001
 
-Start Frontend (New Terminal)
 
-bashcd client
-npm run dev
-# Client runs on http://localhost:5173
-Production Build
-bashcd client
-npm run build
 # Output in client/dist directory
+
 📡 API Documentation
 REST Endpoints
 Get All Stocks
 httpGET /api/stocks
+
 Response:
 json{
   "success": true,
@@ -172,12 +186,16 @@ json{
     }
   ]
 }
+
 Get Stock Details
 httpGET /api/stock/:symbol
+
 Get Market Indices
 httpGET /api/indices
+
 Get Market News
 httpGET /api/news
+
 WebSocket Events
 Subscribe to Updates
 javascriptsocket.on('stockUpdate', (data) => {
@@ -188,6 +206,7 @@ socket.on('newsUpdate', (news) => {
   console.log('Breaking news:', news);
 });
 🎨 Customization
+
 Theme Colors
 Edit client/src/App.css:
 css:root {
@@ -246,7 +265,6 @@ Test on both desktop and mobile
 This project is licensed under the MIT License - see the LICENSE file for details.
 👥 Team
 
-Your Name - Initial work - Nicktella
 
 🙏 Acknowledgments
 
